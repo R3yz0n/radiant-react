@@ -1,11 +1,14 @@
 import React from "react";
+
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import MainLayout from "./layouts/MainLayout";
+
 const App = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <MainLayout>
+      <Home />
+    </MainLayout>
   );
 };
 
