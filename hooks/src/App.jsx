@@ -25,9 +25,10 @@ function App() {
       <p>{state}</p>
 
       <div>Make a component card</div>
-      <Card cardName="card1" />
-      <Card cardName="card2" />
-      <Card cardName="card3" />
+
+      {/* Here we are passing a props to the component */}
+      <Card cardColor="blue" body="fill this yourself" title="This is card 1" />
+      <Card cardColor="yellow" title="another card" />
     </div>
   );
 }
