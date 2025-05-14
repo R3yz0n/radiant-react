@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import Card from "./components/Card";
+import Product from "./components/Product";
 
 function App() {
   // useState is a hook
@@ -29,6 +30,7 @@ function App() {
       {/* Here we are passing a props to the component */}
       <Card cardColor="blue" body="fill this yourself" title="This is card 1" />
       <Card cardColor="yellow" title="another card" />
+      <Product />
     </div>
   );
 }
